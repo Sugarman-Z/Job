@@ -1,0 +1,43 @@
+div.ant
+{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:0px;
+    border:1px solid black;
+    line-height:150%;
+}
+div.header,div.footer
+{
+    padding:0.5em;
+    color:white;
+    background-color:gray;
+    clear:left;
+}
+h1.header
+{
+    padding:0;
+    margin:0;
+}
+div.left
+{
+    justify-content: center;
+    width:300px;
+    margin:0;
+    padding:1em;
+}
+div.content
+{
+
+    display: flex;
+    border-left:1px solid black;
+    padding:1em;
+}
+div.right
+{
+    justify-content: center;
+    border-left:1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
